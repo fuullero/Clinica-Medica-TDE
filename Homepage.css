@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left:0%;
+    background-image: linear-gradient(to right, #bcebdf, #278a9e)
+    
+}
+
+.text h1{
+text-align: center;
+margin-right: 25%;
+color: aliceblue;
+margin-top: 200px;
+font-size: 45px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: dashed;
+}
+.text p{
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.logo{
+    margin-left: 60%;
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    top: 10%;
+}
+
+
+
+#sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #bcebdf;
+    padding: 20px;
+
+}
+#sidebar h2{
+    margin-top: 0;
+    font-family: 'open_sansregular';
+    font-size: 2.3em;
+    color: #000000;
+    border-bottom: 1px #f0eded solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar li{
+    margin-bottom: 10px;
+
+}
+#sidebar a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+#sidebar a:hover{
+    color: #000;
+}

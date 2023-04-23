@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container_form">
+        <h1>Cadastro de funcionários</h1>
+        <link rel="stylesheet" href="Cadastrofuncionarios.css">
+        <form class="form" action="#" method="post">
+            
+            <div class="form_grupo">
+                <label for="nome" class="form_label">Nome do Funcionário</label>
+                <input type="text" name="nome" class="form_input" id="nome" placeholder="Nome" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="rg">RG</label>
+                <input type="text" name="rg" class="form_input" id="rg" placeholder="Insira o seu RG" required>
+            </div>
+            
+            <div class="form_grupo">
+                <label for="Orgao emissor" class="form_label">Orgão Emissor</label>
+                <input type="text" name="Orgao Emissor" class="form_input" id="Orgao emissor" placeholder="Orgão Emissor" required>
+            </div>        
+            <div class="form_grupo">
+                
+                <label for="Numero do cpf" class="text">Número do CPF</label><br>
+                <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2"><br>
+                    
+                                    
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="Endereço" class="form_label">Endereço</label>
+                    <input type="text" name="Endereço" class="form_input" id="Endereço" placeholder="Endereço" required>
+                    </div>
+           
+          
+            <div class="form_grupo">
+                <label for="numero">Numero:</label><br>
+                <input type="number" name="numero" size="4"><br>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="Complemento" class="form_label">Complemento:</label>
+                    <input type="text" name="Complemento" class="form_input" id="Complemento" placeholder="Complemento" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Bairro" class="form_label">Bairro:</label>
+                    <input type="text" name="Bairro" class="form_input" id="Bairro" placeholder="Bairro" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Cidade" class="form_label">Cidade:</label>
+                    <input type="text" name="Cidade" class="form_input" id="Cidade" placeholder="Cidade" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Estado" class="form_label">Estado:</label><br>
+                   <select name="Estado">
+                    <option value="ac">Acre</option> 
+            <option value="al">Alagoas</option> 
+            <option value="am">Amazonas</option> 
+            <option value="ap">Amapá</option> 
+            <option value="ba">Bahia</option> 
+            <option value="ce">Ceará</option> 
+            <option value="df">Distrito Federal</option> 
+            <option value="es">Espírito Santo</option> 
+            <option value="go">Goiás</option> 
+            <option value="ma">Maranhão</option> 
+            <option value="mt">Mato Grosso</option> 
+            <option value="ms">Mato Grosso do Sul</option> 
+            <option value="mg">Minas Gerais</option> 
+            <option value="pa">Pará</option> 
+            <option value="pb">Paraíba</option> 
+            <option value="pr">Paraná</option> 
+            <option value="pe">Pernambuco</option> 
+            <option value="pi">Piauí</option> 
+            <option value="rj">Rio de Janeiro</option> 
+            <option value="rn">Rio Grande do Norte</option> 
+            <option value="ro">Rondônia</option> 
+            <option value="rs">Rio Grande do Sul</option> 
+            <option value="rr">Roraima</option> 
+            <option value="sc">Santa Catarina</option> 
+            <option value="se">Sergipe</option> 
+            <option value="sp">São Paulo</option> 
+            <option value="to">Tocantins</option> 
+           </select>
+                   </select>
+                </div>
+                
+                <div class="form_grupo">
+                    <label for="Telefone" class="form_label">Telefone:</label>
+                    <input type="tel" name="Telefone" class="form_input" id="Telefone" placeholder="Telefone" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Celular" class="form_label">Celular:</label>
+                    <input type="text" name="Celular" class="form_input" id="Celular" placeholder="Celular" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Numero CTPS" class="form_label">ata de:</label>
+                    <input type="text" name="Numero CTPS" class="form_input" id="Numero CTPS" placeholder="Numero da CTPS" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Numero PIS" class="form_label">Número do PIS:</label>
+                    <input type="text" name="Numero PIS" class="form_input" id="Numero PIS" placeholder="Numero do PIS" required>
+                </div>
+
+                <div class="form_grupo">
+                    <label for="Data Nascimento" class="form_label">Data de Nascimento:</label>
+                    <input type="date" name="Data Nascimento" class="form_input" id="Data Nascimento" placeholder="Data de Nascimento" required>
+                </div>
+
+                <div class="form_grupo">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+
+                
+
+                
+        
+        </form>
+
+        <div id="sidebar">
+            <h2>Clinica Médica</h2>
+            <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="#">Cadastrar funcionários</a></li>
+                <li><a href="tela agendamento.html">Agendar Consulta</a></li>
+                <li><a href="Tela cadastro paciente final.HTML">Cadastrar Pacientes</a></li>   
+                <li> <a href="CadastroMedico.html" target="_blank">Cadastro Medico</a></li>
+ 
+            </ul>
+
+    </div>
+
+    
+    
+    </div><!--container_form-->
+    
+</body>
+</html>
