@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedLand</title>
+    <link rel="stylesheet" href="Styles/style_tela_agendamento.css">
+
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <fieldset>
+                <legend><b>Agendar Consulta</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome Completo:</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email:</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="tel" name="tel" id="tel" class="inputUser" required>
+                    <label for="tel" class="labelInput">Telefone:</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço:</label>
+                </div>
+
+
+                <br>
+
+                <p>Sexo:</p>
+
+                <input type="radio" name="genero" id="feminino" value="Feminino">
+                <label for="feminino">Feminino</label>
+
+                <br>
+
+                <input type="radio" name="genero" id="masculino" value="Masculino">
+                <label for="masculino">Masculino</label>
+
+                <br>
+
+                <input type="radio" name="genero" id="outro" value="outro">
+                <label for="outro">Outro</label>
+
+                <br><br>
+
+                <label for="data_consulta" class="inputUser">Data da consulta:</label>
+                <input type="date" name="data_consulta" id="data_consulta" required>
+
+
+                <br><br>
+
+                <label for="horario" class="inputUser">Horário da consulta:</label>
+                <input type="time" name="horario" id="horario" required>
+
+                <br><br>
+
+                <label for="data_retorno" class="inputUser">Data do retorno:</label>
+                <input type="date" name="data_retorno" id="data_retorno" required>
+
+
+                <br><br>
+
+                <label for="horario_retorno" class="inputUser">Horário da consulta:</label>
+                <input type="time" name="horario_retorno" id="horario_retorno" required>
+
+
+                <br><br><br>
+
+
+
+
+                <input type="submit" name="submit" id="submit" value="Agendar">
+
+
+
+
+
+
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="sidebar">
+        <h2>Clinica Médica</h2>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="CadastroFuncionarios.html">Cadastrar Funcionários</a></li>
+            <li><a href="#">Agendar Consulta</a></li>
+            <li><a href="Tela cadastro paciente final.HTML">Cadastrar Paciente</a></li>   
+            <li> <a href="CadastroMedico.html" target="_blank">Cadastro Médico</a></li>
+
+        </ul>
+      </div>
+
+</body>
+
+</html>
